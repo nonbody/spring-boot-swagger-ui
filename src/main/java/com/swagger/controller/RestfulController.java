@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestfulController {
 
     @ApiOperation(value = "message restful and my description")
-    @GetMapping("message")
+    @GetMapping("messageXXXXXX")
     public ResponseMessage message(){
         return new ResponseMessage("hello","world");
     }
