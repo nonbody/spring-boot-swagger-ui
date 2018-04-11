@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class RestfulController {
 
     @ApiOperation(value = "message restful and my description")
-    @GetMapping("messageXXXXXX")
+    @GetMapping("messageXXXXXX2")
     public ResponseMessage message(){
         return new ResponseMessage("hello","world");
     }
@@ -22,7 +22,7 @@ public class RestfulController {
     @ApiOperation(value = "postdata restful and my description")
     @PostMapping("postdata")
     public ResponseMessage postdata(@RequestBody RequestMessage requestMessage){
-        return new ResponseMessage("hello",requestMessage.toString());
+        return new ResponseMessage("helloFuxkkkkkkkk2",requestMessage.toString());
     }
 
 }
